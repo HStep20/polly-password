@@ -9,7 +9,7 @@
 
   "background": {
     "scripts": [
-      "./script.js"
+      "popup/script.js"
     ]
   },
   
@@ -19,7 +19,7 @@
         "*://*/"
       ],
       "js": [
-        "./script.js"
+        "popup/script.js"
       ]
     }
   ],
@@ -28,7 +28,7 @@
     "default_icon": {
       "64": "icons/icon.png"
     },
-    "default_popup": "./index.html",
+    "default_popup": "popup/index.html",
     "default_title": "Polly Password"
   }
 }
