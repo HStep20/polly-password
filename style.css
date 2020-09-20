@@ -1,0 +1,32 @@
+html, body{
+  width: 225px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.buttonandoutput{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: inherit;
+  padding-bottom: 15px;
+}
+
+#outputbox{
+  margin: 10px;
+}
+
+.passwordattributes{
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
