@@ -6,13 +6,14 @@
   "icons": {
     "64": "icons/icon.png"
   },
-
+  "content_security_policy": "default-src 'self'",
   "background": {
     "scripts": [
       "popup/script.js"
     ]
   },
   
+
   "content_scripts": [
     {
       "matches": [
