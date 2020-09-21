@@ -7,33 +7,36 @@
     <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
-    <h1 id="logotext">Create A Password</h1>
-    <!--TODO: Add Image -->
-    <div class="stringlevel" id="string level" hidden>
-      <input type="radio" name="level" value="character" checked>Character</input>
-      <input type="radio" name="level" value="word">Word</input>
-    </div>
-    <div class="passwordattributes" id="passwordattributes">
-      <label for="capital">
-      <input id="capital" type="checkbox" name="attributes" value="capital" checked>
-      Capitals</label>
-      <label for="lowercase">
-      <input id="lowercase" type="checkbox" name="attributes" value="lowercase" checked>
-      Lowercase</label>
-      <label for="numbers">
-      <input id="numbers" type="checkbox" name="attributes" value="numbers" checked>
-      Numbers</label>
-      <label for="symbols">
-      <input id="symbols" type="checkbox" name="attributes" value="symbols" checked>
-      Symbols</label>
-    </div>
-    
-    <div class="buttonandoutput">
-      <textarea id="outputbox" placeholder="click generate to create a password" readonly></textarea>
-      <button id="generate" onclick="generate()">Generate A Password</button>
-      <button id="clipboard" onclick="copyToClipboard()" >Copy Password</button>
-    </div>
+      <h1 id="logotext">Generate a Password</h1>
+      <!--TODO: Add Image -->
+    <div class="fullmonty">
+      <div class="stringlevel" id="string level" hidden>
+        <input type="radio" name="level" value="character" checked>Character</input>
+        <input type="radio" name="level" value="word">Word</input>
+      </div>
 
+      <div class="passwordattributes" id="passwordattributes">
+        <label for="capital">
+        <input id="capital" type="checkbox" name="attributes" value="capital" checked class="checkbox">
+        Capitals</label>
+        <label for="lowercase">
+        <input id="lowercase" type="checkbox" name="attributes" value="lowercase" checked class="checkbox">
+        Lowercase</label>
+        <label for="numbers">
+        <input id="numbers" type="checkbox" name="attributes" value="numbers" checked class="checkbox">
+        Numbers</label>
+        <label for="symbols">
+        <input id="symbols" type="checkbox" name="attributes" value="symbols" checked class="checkbox">
+        Symbols</label>
+        <textarea id="outputbox" placeholder="click generate to create a password" readonly></textarea>
+      </div>
+      
+      <div class="buttonandoutput">
+        
+        <button id="generate" onclick="generate()" class="button">Generate A Password</button>
+        <button id="clipboard" onclick="copyToClipboard()" class="button">Copy Password</button>
+      </div>
+    </div>
   </body>
 
 </html>

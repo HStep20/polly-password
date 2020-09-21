@@ -1,15 +1,18 @@
 html, body{
-  width: 225px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-  display: flex;
-  justify-content: center;
+  width: 215px;
 
+  justify-content: center;
+  background-color: gainsboro;
 }
+
 
 h1 {
     text-align: center;
+    color: tomato;
+    background-color: white;
+    border-radius: 8px;
+    font-size: xx-large;
+    margin-bottom: 5px;
 }
 
 .buttonandoutput{
@@ -18,13 +21,31 @@ h1 {
   flex-direction: column;
   flex-grow: inherit;
   padding-bottom: 15px;
+  color: crimson;
 }
-
+.fullmonty{
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
 #outputbox{
   margin: 10px;
 }
 
-.passwordattributes{
+.button {
+  margin-top: 5px;
+  height: 1.5em;
+  color: tomato;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 8px;
+}
+
+.passwordattributes {
+  font-size: larger;
+  color: tomato;
+  background-color: whitesmoke;
+  border-radius: 8px;
   padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
